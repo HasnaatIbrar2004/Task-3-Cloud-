@@ -1,0 +1,9 @@
+.env
+*.db
+__pycache__/
+.venv/
+.pytest_cache/
+
+# keep the logs folder in the repo, but not the log files themselves
+logs/*
+!logs/.gitkeep
